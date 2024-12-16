@@ -1,4 +1,117 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #17255a;
+    color: #F5E2C8;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+a:hover {
+    color: #BD1E1E;
+    cursor: pointer;
+}
+
+#start-button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background-color: #D88373;
+    font-size: xx-large;
+    border-color: #BD1E1E;
+}
+
+#start-button:hover {
+    color: #17255a;
+    cursor: pointer;
+}
+
+
 .quiz_image {
     width: 10%;
     height: 10%;
+}
+
+/* Space here is reserved for quiz.html 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+#home-button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background-color: #D88373;
+    font-size: xx-large;
+    border-color: #BD1E1E;
+}
+
+#home-button:hover {
+    color: #17255a;
+    cursor: pointer;
 }
