@@ -135,6 +135,15 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
+
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: block;
+}
+
 #home-button {
     text-align: center;
     display: block;
