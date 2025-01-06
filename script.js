@@ -1,6 +1,4 @@
-const submit = document.getElementById("submit")
-
-
-submit.addEventListener("click", function() {
-    console.log("Submit clicked")
-})
+document.getElementById("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+    window.alert("Form submitted!");
+  });
