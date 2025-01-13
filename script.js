@@ -1,20 +1,6 @@
-// const submitButton = document.getElementById("submitButton");
+const submitButton = document.getElementById("submitButton");
 
-// submitButton.addEventListener("click", function() {
-//   window.alert("Submitted!");
-//   window.location.href = "completed.html";
-// });
-
-// submitButton.addEventListener("click", function() {
-//   window.location.href = "completed.html";
-// });
-
-function popup() {
-  alert("Submitted!");
-  console.log("Popup");
-}
-
-function redirect() {
-  window.location.href = "completed.html";
-  console.log("Redirect");
-}
+submitButton.addEventListener("click", function() {
+  window.alert("Submitted!");
+  window.location.href = "index.html";
+});
