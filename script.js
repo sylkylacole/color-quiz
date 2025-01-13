@@ -11,8 +11,10 @@
 
 function popup() {
   alert("Submitted!");
+  console.log("Popup");
 }
 
 function redirect() {
   window.location.href = "completed.html";
+  console.log("Redirect");
 }
